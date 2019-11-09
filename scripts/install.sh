@@ -69,7 +69,7 @@ make && sudo make install
 
 # link the opencv lib into the virtualenv as cv2
 cd ~/.virtualenvs/cv/lib/python3.5/site-packages
-ln -s /usr/local/lib/python3.5/site-packages/cv2.cpython-35m-x86_64-linux-gnu.so cv2.so
+ln -s /usr/local/lib/python3.5/site-packages/cv2/python-3.5/cv2.cpython-35m-x86_64-linux-gnu.so cv2.so
 
 # create jupyter configuration file
 mkdir -p ~/.jupyter
